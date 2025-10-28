@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgba(170, 127, 255, 0.484);
+        }
+        .card{
+            display:grid;
+            grid-template-columns:  repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding:20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card image{
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .card img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="12th.jpg" height="400px" width="300px" alt="Image 1">
+        <img src="svsc.jpg" height="400px" width="300px" alt="Image 2">
+        <img src="color.jpg" height="400px" width="300px" alt="Image 3">  
+        <img src="ni.jpg" height="400px" width="300px" alt="Image 4">
+        <img src="bhahubalitheepic.jpg" height="400px" width="300px" alt="Image 5">
+    </div>
+</body>
+</html>
