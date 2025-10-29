@@ -1,12 +1,30 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            margin: 0;
+     
+
+    ul{
+        padding-left: 200px;
+        padding-top: 30px;
+        list-style-type: none;
+        display: flex;
+    }
+    li{
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        padding-left: 60px;
+    }
+    main{
+        padding: 10px;
+        background-color: rgb(211, 211, 211);
+    }
+
+         body{ margin: 0;
             padding: 0;
             background-color: rgba(170, 127, 255, 0.484);
         }
@@ -26,15 +44,55 @@
         .card img:hover {
             transform: scale(1.2);
         }
+        
+        
+        
+        
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+       
+        
+    
+
     </style>
 </head>
 <body>
+    <header> 
+       <div class="header-content">
+            <div class="logo">
+                <img src="movieHub.png" alt="movieHub   " style="height: 200px; width: auto;">
+            </div>
+            <nav>
+                <ul>
+                   <li> Home</li>
+                   <li> About </li>
+                   <li>Movies</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <div class="card">
-        <img src="12th.jpg" height="400px" width="300px" alt="Image 1">
-        <img src="svsc.jpg" height="400px" width="300px" alt="Image 2">
-        <img src="color.jpg" height="400px" width="300px" alt="Image 3">  
-        <img src="ni.jpg" height="400px" width="300px" alt="Image 4">
-        <img src="bhahubalitheepic.jpg" height="400px" width="300px" alt="Image 5">
+        <img src="maharshi1.jpg" height="350px" width="250px" alt="Image 1">
+        <img src="pushpa-2.jpg" height="350px" width="250px" alt="Image 2">
+        <img src="rangastalam.jpg" height="350px" width="250px" alt="Image 3">  
+        <img src="jersey.jpg" height="350px" width="250px" alt="Image 4">
+        <img src="vikram.jpg" height="350px" width="250px" alt="Image 5">
+        <img src="arundhati.jpg" height="350px" width="250px" alt="Image 6">
+        <img src="bahubali.webp" height="350px" width="250px" alt="Image 7">
+        <img src="ntr.jpg" height="350px" width="250px" alt="Image 8">
     </div>
 </body>
 </html>
